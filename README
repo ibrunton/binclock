@@ -2,7 +2,7 @@ binclock - a simple binary clock
 
 Written Wed 23 May 2012 by Ian D Brunton < iandbrunton at gmail dot com >
 
-Outputs current %H:%M:%S as a binary string.
+Outputs current %H:%M:%S as a binary string every second.
 
 Options:
 	-0	The character to represent the 0 bit.
@@ -10,3 +10,5 @@ Options:
 	-1	The character to represent the 1 bit.
 
 	-s	The character to separate hours, minutes, and seconds.
+
+	-o	Output binary time only once, then exit.

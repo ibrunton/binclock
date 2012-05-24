@@ -110,5 +110,5 @@ print_version ()
 void
 print_usage ()
 {
-	printf ("%s [-0 char] [-1 char] [-s char]\n", APPNAME);
+	printf ("%s [-0 char] [-1 char] [-s char] [-o]\n", APPNAME);
 }
